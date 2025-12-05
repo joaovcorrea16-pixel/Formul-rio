@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encomenda de Bolo de Aniversário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎂 Encomenda de Bolo</h1>
+    <p class="subtitulo">Preencha o formulário abaixo para solicitar seu bolo personalizado.</p>
+
+    <form action="sucesso.html" method="GET">
+      <label>Nome Completo</label>
+      <input type="text" name="nome" placeholder="Digite seu nome" required>
+
+      <label>Telefone</label>
+      <input type="tel" name="telefone" placeholder="(11) 99999-9999" required>
+
+      <label>Email</label>
+      <input type="email" name="email" placeholder="seuemail@gmail.com">
+
+      <label>Tamanho do Bolo</label>
+      <select name="tamanho" required>
+        <option value="">Selecione...</option>
+        <option>Pequeno (1kg)</option>
+        <option>Médio (2kg)</option>
+        <option>Grande (3kg)</option>
+        <option>Gigante (5kg)</option>
+      </select>
+
+      <label>Sabor</label>
+      <select name="sabor" required>
+        <option value="">Selecione...</option>
+        <option>Chocolate</option>
+        <option>Baunilha</option>
+        <option>Morango</option>
+        <option>Red Velvet</option>
+        <option>Misto</option>
+      </select>
+
+      <label>Recheio</label>
+      <select name="recheio" required>
+        <option value="">Selecione...</option>
+        <option>Brigadeiro</option>
+        <option>Beijinho</option>
+        <option>Doce de Leite</option>
+        <option>Creme de Morango</option>
+        <option>Nutella</option>
+      </select>
+
+      <label>Mensagem no Bolo</label>
+      <input type="text" name="mensagem" placeholder="Ex: Feliz Aniversário, João!">
+
+      <label>Data da Entrega</label>
+      <input type="date" name="data" required>
+
+      <label>Detalhes Extras</label>
+      <textarea name="detalhes" placeholder="Tema, cor, personagem..."></textarea>
+
+      <button type="submit">Enviar Pedido</button>
+    </form>
+  </div>
+  <footer>
+    🍰 Desenvolvido com carinho.
+  </footer>
+</body>
+</html>
+
+
+
