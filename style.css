@@ -1,0 +1,92 @@
+/* ======== RESET ======== */
+@import url('https://fonts.cdnfonts.com/css/lt-easter');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #fff7f8;
+    padding: 30px;
+}
+
+/* ======== CONTAINER ======== */
+.container {
+    max-width: 650px;
+    background: #ffffff;
+    padding: 30px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+                                                                        font-family: 'LT Easter', sans-serif;
+                                                
+    text-align: center;
+    color: #d6336c;
+    margin-bottom: 20px;
+}
+
+p.subtitulo {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* ======== FORM ======== */
+form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ffe0e6;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+    border-color: #ff8fa3;
+    box-shadow: 0 0 5px rgba(255, 143, 163, 0.5);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* ======== BOTÃO ======== */
+button {
+    width: 100%;
+    background: #d6336c;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e64980;
+}
+
+/* ======== RODAPÉ ======== */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+    font-size: 14px;
+}
